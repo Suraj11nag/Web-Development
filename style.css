@@ -1,0 +1,37 @@
+body {
+  background-image: url(https://images.unsplash.com/photo-1515343480029-43cdfe6b6aae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80);
+  background-size: cover;
+}
+.heading {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  padding: 100px;
+  text-align: center;
+  margin-top: 100px;
+  transition: all 1s;
+}
+h2 {
+  color: white;
+}
+.button {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-top: 145px;
+
+  transition: all 1s;
+}
+.button :hover {
+  background-color: darkgreen;
+  border-radius: 25px;
+  transform: scale(1.1);
+}
+.heading:hover {
+  transform: scale(1.1);
+}
+.btn {
+  border-radius: 25px;
+}
